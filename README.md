@@ -66,3 +66,17 @@ The deployment has two ways. One is recreate, another one is RollingUpdate. The 
 # kubectl get all can get all the resources in the cluster
 kubectl get all
 ```
+
+## Services
+Kubernetes Services enable communication betwenn various components within and outside of the application. Kubernetes Services helps up connect applications together without other applications or users.
+```
+# Create
+kubectl create -f service-definition.yml
+
+# Get
+kubectl get service 
+```
+### ClusterIP
+### NodePort
+### Load Balancer
+ClusterIP < NodePort < Load Balancer
