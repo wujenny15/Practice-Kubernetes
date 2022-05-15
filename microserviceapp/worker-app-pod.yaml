@@ -5,7 +5,7 @@ metadata:
   labels:
     name: worker-app-pod
     app: demo-voting-app
-  spec:
-    containers:
-      - name: worker-app
-        image: kodekloud/examplevotingapp_worker:v1
+spec:
+  containers:
+    - name: worker-app
+      image: kodekloud/examplevotingapp_worker:v1
